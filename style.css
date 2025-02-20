@@ -620,12 +620,12 @@ transform: scale(1.02);
     display: block;
     width: 100%;
     height: 100%;
-    object-fit: cover;
+    object-fit: contain;
     border-radius: 1rem;
 }
 
 .portfolio-box .navigation {
-    text-align: right;
+    text-align: center;
     margin-top: 2rem;
 }
 
@@ -954,6 +954,35 @@ footer {
 
 }
 
+@media (max-width: 450px) {
+    .btn-hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-hero .btn {
+        margin-bottom: 2rem;
+    }
+
+    .hero-left h2 {
+        font-size: 24px;
+    }
+
+    .hero-left h1 {
+        font-size: 32px;
+        margin-bottom: 2rem;
+    }
+    .portfolio-container {
+
+        flex-direction: column-reverse;
+       }
+       .portfolio-container   {
+
+        padding: 10px;
+    
+       }
+}
+
 @media (max-width: 400px) {
     .hero-detail, .resume-box h2, .resume-box .heading-text, .resume-box .desc, .resume-detail.about .resume-item {
         text-align: center;
@@ -975,6 +1004,103 @@ footer {
     .contact-box h2 {
         font-size: 3.5rem;
     }
+
+    .portfolio-container {
+
+        flex-direction: column-reverse;
+       }
+}
+
+@media (max-width: 375px) {
+    .btn-hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-hero .btn {
+        margin-bottom: 2rem;
+    }
+
+    .hero-left h2 {
+        font-size: 20px;
+    }
+
+    .hero-left h1 {
+        font-size: 28px;
+        margin-bottom: 2rem;
+    }
+    .services-container {
+        padding: 0;
+    }
+    .portfolio-container {
+
+        flex-direction: column-reverse;
+       }
+    
+       .portfolio-container   {
+    
+        padding: 10px;
+    
+       }
+       .contact-box {
+        width: 35rem;
+       padding: 10px;
+       align-self: center;
+     }
+}
+
+@media (max-width: 320px) {
+    .btn-hero {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .btn-hero .btn {
+        margin-bottom: 2rem;
+    }
+
+    .hero-left h2 {
+        font-size: 18px;
+    }
+
+    .hero-left h1 {
+        font-size: 24px;
+        margin-bottom: 2rem;
+    }
+
+    .contact-box {
+       width: 35rem;
+      padding: 15px;
+      align-self: center;
+    }
+
+    .services-container {
+        padding: 0;
+    }
+
+   .service-box  {
+     width: 90%;
+   }
+
+   .portfolio-container {
+
+    flex-direction: column-reverse;
+   }
+
+   .portfolio-container   {
+
+    padding: 10px;
+
+   }
+
+   .portfolio-box .navigation {
+    text-align: center;
+    margin-top: 0;
+}
+   
+    
+
+    
 }
 
 
