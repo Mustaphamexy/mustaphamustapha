@@ -1137,6 +1137,19 @@ footer {
 .contact-box form {
     padding:  2.5rem 3rem 3.5rem;
 }
+
+section {
+    padding-top: 15px;
+}
+
+.contact-box form {
+    padding:  2.5rem 3rem 3.5rem;
+}
+
+.contact-box .field-box input, .contact-box .field-box textarea {
+    padding: 1rem;
+    overflow: hidden;
+}
    
     
 
