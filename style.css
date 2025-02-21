@@ -1144,6 +1144,9 @@ section {
 
 .contact-box form {
     padding:  2.5rem 3rem 3.5rem;
+    width: 90%;
+    max-width: 400px;
+    margin: auto;
 }
 
 .contact-box .field-box input, .contact-box .field-box textarea {
