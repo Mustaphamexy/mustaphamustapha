@@ -22,8 +22,8 @@ a {
     color: #fff;
 }
 
-.navbar {
-    /* position: fixed; */
+nav {
+    position: fixed;
     background-color: #1f242d;
     left: 0;
     right: 0;
@@ -44,28 +44,28 @@ a {
     }
 }
 
-.navbar .logo {
+nav .logo {
     font-size: 30px;
     font-weight: 700;
 
 }
 
-.navbar ul {
+nav ul {
     display: flex ;
 }
 
-.navbar ul li {
+nav ul li {
     list-style: none;
     margin-left: 35px;
 }
 
-.navbar ul li a {
+nav ul li a {
     font-size: 20px;
     font-weight: 200;
     transition: .5s;
 }
 
-.navbar ul li a:hover, .navbar ul li a.active {
+nav ul li a:hover, .navbar ul li a.active {
     color: #a168db;
 }
 
@@ -798,7 +798,7 @@ footer {
 
 @media screen and (max-width: 992px) {
     header {
-        padding: 2rem 4%;
+        /* padding: 2rem 4%; */
     }
 
     section {
@@ -809,15 +809,21 @@ footer {
         font-size: 40px; 
     }
 
-    nav {
-        display: none;
+
+    nav ul {
         position: absolute;
         top: 70px;
         left: 0;
-        width: 100%;
-        background: #1f242d;
+        right: 0;
+        flex-direction: column;
         text-align: center;
+        background-color: #1f242d;
+        gap: 0;
+        display: none;
+    }
 
+    nav ul.active {
+        display: block;
     }
 }
 
@@ -841,31 +847,24 @@ footer {
 
     } 
 
-    nav {
+    nav ul {
         position: absolute;
-        top: 0px;
+        top: 60px;
         left: 0;
-        width: 100%;
-        background: #1f242d;
-        text-align: center;
-
-    }
-
-
-
-    .navbar ul.active {
-        display: flex;
+        right: 0;
         flex-direction: column;
-    }
-
-    .navbar ul {
-       display: none;
-       margin: 1rem 0;
-        padding: 0;
+        text-align: center;
+        background-color: #1f242d;
+        gap: 0;
     }
 
     nav ul li {
-        padding: 1rem 0;
+        padding: 20px;  
+
+    }
+
+    nav ul.active {
+        display: block;
     }
 
 
@@ -876,7 +875,7 @@ footer {
     }
 
     .hero-img {
-        padding-top: 25rem;
+        padding-top: 30rem;
     }
 
     .hero-left {
@@ -884,8 +883,8 @@ footer {
     }
 
     .hero-img .img-box {
-        width: 35rem;
-        height: 35rem;
+        width: 30rem;
+        height: 30rem;
       
     }
 
@@ -936,8 +935,8 @@ footer {
 
 @media (max-width: 600px) {
     .hero-img .img-box {
-        width: 30rem;
-        height: 30rem;
+        width: 25rem;
+        height: 25rem;
     }
 
     .contact-box .field-box {
@@ -1093,7 +1092,7 @@ footer {
     }
 
     .btn-hero .btn {
-        margin-bottom: 2rem;
+        margin-bottom: 1rem;
     }
 
     .hero-left h2 {
@@ -1133,6 +1132,10 @@ footer {
    .portfolio-box .navigation {
     text-align: center;
     margin-top: 0;
+}
+
+.contact-box form {
+    padding:  2.5rem 3rem 3.5rem;
 }
    
     
