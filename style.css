@@ -1058,11 +1058,11 @@ footer {
     }
 
     .hero-left h2 {
-        font-size: 20px;
+        font-size: 18px;
     }
 
     .hero-left h1 {
-        font-size: 28px;
+        font-size: 25px;
         margin-bottom: 2rem;
     }
     .services-container {
@@ -1096,11 +1096,11 @@ footer {
     }
 
     .hero-left h2 {
-        font-size: 18px;
+        font-size: 16px;
     }
 
     .hero-left h1 {
-        font-size: 24px;
+        font-size: 20px;
         margin-bottom: 2rem;
     }
 
@@ -1153,10 +1153,6 @@ section {
     padding: 1rem;
     overflow: hidden;
 }
-   
-    
-
-    
 }
 
 
