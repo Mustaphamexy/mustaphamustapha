@@ -1157,7 +1157,7 @@ section {
 .contact-box .field-box input, .contact-box .field-box textarea {
     padding: 1rem;
     overflow: hidden;
-    max-width: 50%;
+    max-width: 70%;
 }
 }
 
