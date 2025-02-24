@@ -1086,7 +1086,7 @@ footer {
      .contact-box .field-box input, .contact-box .field-box textarea {
         padding: 1rem;
         overflow: hidden;
-        max-width: 100%;
+        max-width: 80%;
     }
 }
 
