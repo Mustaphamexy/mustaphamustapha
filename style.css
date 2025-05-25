@@ -273,6 +273,34 @@ nav ul li a:hover, .navbar ul li a.active {
     color: #a168db;
 }
 
+
+ .elevator-pitch {
+            padding: 4rem 2rem;
+            max-width: 1200px;
+            margin: 0 auto;
+            text-align: center;
+        }
+        
+        .elevator-pitch p {
+            font-size: 1.9rem;
+            max-width: 800px;
+            margin: 0 auto 2rem;
+        }
+        
+        .video-wrapper {
+            width: 100%;
+            max-width: 800px;
+            margin: 0 auto;
+            border-radius: 8px;
+            overflow: hidden;
+            box-shadow: 0 10px 20px rgba(0,0,0,0.1);
+        }
+        
+        .video-wrapper video {
+            width: 100%;
+            display: block;
+        }
+
 .services-container {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(40rem, 1fr));

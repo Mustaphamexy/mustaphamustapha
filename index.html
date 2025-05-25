@@ -7,6 +7,9 @@
     <link rel="stylesheet" href="style.css">
     <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 
+    <!-- aos animaiton  -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
 </head>
 <body>
     <header>
@@ -33,7 +36,7 @@
     </div>
     <main>
         <section class="hero " id="home">
-            <div class="hero-left">
+            <div class="hero-left" data-aos="fade-right">
                 <h1>Mustapha Mustapha</h1>
                 <h2>I am a 
                     <Span style="--i:4;" data-text="WordPress Developer">WordPress Developer</Span>
@@ -52,7 +55,7 @@
                     </div>
                 </div>
             </div>
-            <div class="hero-img">
+            <div class="hero-img" data-aos="slide-down">
                <div class="img-box">
                     <div class="img-item">
                         <img src="img/myphoto2.png" alt="">
@@ -61,9 +64,21 @@
             </div>
         </section>
 
+        <section class="elevator-pitch">
+             <h2 class="heading-text" data-aos="slide-down">My Elevator <span>Pitch</span></h2>
+             <p data-aos="slide-down">Get to know me in just a few minutes. Watch my elevator pitch to understand my passion, skills, and what drives me as a developer.</p>
+             <div class="video-wrapper" data-aos="fade-up">
+            <!-- Replace with your actual video file -->
+            <video controls poster="img/Mustapha Elevator Pitch Poster.png">
+                <source src="img/0524.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+            </video>
+             </div>
+        </section>
+
         <section class="services" id="service">
-            <h2 class="heading-text">My <span>Services</span></h2>
-            <div class="services-container">
+            <h2 class="heading-text" data-aos="slide-down">My <span>Services</span></h2>
+            <div class="services-container" data-aos="slide-up">
                 <div class="service-box">
                     <div class="icon">
                         <i class='bx bxl-wordpress'></i>
@@ -122,7 +137,7 @@
 
         <section class="resume " id="resume">
             <div class="resume-container">
-                <div class="resume-box">
+                <div class="resume-box" data-aos="slide-right">
                     <h2>Why Hire Me?</h2>
                     <p class="desc">A growth-driven personnel with result-driven solutions that enhance growth and efficiency.</p>
                     <button class="resume-btn active">Experience</button>
@@ -132,7 +147,7 @@
                     <button class="resume-btn">About Me</button>
                 </div>
 
-                <div class="resume-box">
+                <div class="resume-box" data-aos="slide-left">
                     <div class="resume-detail experience active">
                         <h2 class="heading-text">My <span>Experience</span></h2>
                         <p class="desc">With hands-on experience in web development, SEO, and project management, I have successfully built, optimized, and managed websites that enhance user experience and business growth.</p>
@@ -349,9 +364,9 @@
         </section>
 
         <section class="portfolio" id="portfolio">
-            <h2 class="heading-text">My <span>Projects</span></h2>
+            <h2 class="heading-text" data-aos="fade-down">My <span>Projects</span></h2>
             <div class="portfolio-container">
-                <div class="portfolio-box">
+                <div class="portfolio-box" data-aos="fade-right">
                     <div class="portfolio-detail active">
                         <p class="numb">01</p>
                         <h3>KCsports Agency</h3>
@@ -441,7 +456,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-box">
+                <div class="portfolio-box" data-aos="fade-left">
                     <div class="portfolio-carousel">
                         <div class="img-slide">
                             <div class="img-items">
@@ -484,7 +499,7 @@
 
         <section class="contact" id="contact">
             <div class="contact-container">
-                <div class="contact-box">
+                <div class="contact-box" data-aos="fade-up">
                     <h2>Let's Work Together</h2>
                     <p class="desc">Let’s create impactful digital solutions that boost your brand and online presence.</p>
                     <div class="contact-detail">
@@ -509,7 +524,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="contact-box">
+                <div class="contact-box"data-aos="fade-down">
                     <form action="">
                         <h2 class="heading-text">Contact <span>Mustapha!</span></h2>
                         <div class="field-box">
@@ -547,5 +562,12 @@
            </nav>
     </footer>
 </body>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <script>
+    AOS.init({
+    duration: 1000,
+    once: true
+});
+  </script>
 <script src="script.js"></script>
 </html>

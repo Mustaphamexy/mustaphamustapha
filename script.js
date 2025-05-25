@@ -123,3 +123,8 @@ arrowLeft.addEventListener('click', () => {
     
 });
 
+AOS.init({
+  duration: 3000,
+  once: true,
+  disable: 'mobile' // or false to enable on mobile
+});
