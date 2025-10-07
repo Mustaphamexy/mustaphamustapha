@@ -1,0 +1,16 @@
+export const MyPhoto = '/assets/myphoto2.png';
+export const ElevatorImage = "/assets/Mustapha Elevator Pitch Poster.png"
+export const ElevatorVideo = "/assets/0524.mp4"
+export const AxiaFrontend = "/assets/Mustapha Axia Certificate.jpg"
+export const SuferContent = "/assets/Content-Optimization-Certification.jpg"
+export const MovieApp = "/assets/Movie App.png"
+export const Salonaffairs = "/assets/salonaffairs.png"
+export const NewsApp = "/assets/9am.png"
+export const Kcsports = "/assets/Kcsports Agency – My WordPress Blog (2).png" 
+export const BlogInfoHeap = "/assets/blogheapinfo.png"
+export const Bitcoin = "/assets/Bitcoin.png"
+export const GabbyFoundation = "/assets/Gabby.png"
+export const JentubyFoundation = "/assets/Jentuby.png"
+export const SebastinePortfolio = "/assets/Sebastine.png"
+export const FrancostechLimited = "/assets/Francostech.png"
+
