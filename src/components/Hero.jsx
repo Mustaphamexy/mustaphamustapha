@@ -135,10 +135,10 @@ const Hero = () => {
 
       <section 
         id="home" 
-        className={`hero-container min-h-screen flex items-center px-6 md:px-12 lg:px-24  gap-12 ${isVisible ? 'opacity-100' : ''}`}
+        className={`hero-container pt-4 flex items-center px-6 md:px-12 lg:px-24  gap-12 ${isVisible ? 'opacity-100' : ''}`}
         style={{ backgroundColor: '#1f242d' }}
       >
-        <div className="max-w-7xl mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-4">
+        <div className="max-w-7xl  mx-auto w-full grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-16 items-center mb-4">
           
           {/* Left Content */}
           <div className=" order-2 lg:order-1 space-y-3 text-white" data-aos="fade-right">

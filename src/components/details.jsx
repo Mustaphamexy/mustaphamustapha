@@ -13,4 +13,7 @@ export const GabbyFoundation = "/assets/Gabby.png"
 export const JentubyFoundation = "/assets/Jentuby.png"
 export const SebastinePortfolio = "/assets/Sebastine.png"
 export const FrancostechLimited = "/assets/Francostech.png"
+export const Learnverrse = "/assets/learnverse.png"
+export const Afriremotely = "/assets/afriremotely.png"
+export const AlxApp = '/assets/alx-listing-app.png'
 
