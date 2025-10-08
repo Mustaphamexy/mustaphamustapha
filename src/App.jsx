@@ -6,6 +6,7 @@ import Resume from "./components/Resume"
 import Services from "./components/Services"
 import Contact from './components/Contact'
 import ElevatorPitch from './components/ElevatorPitch'
+import Footer from "./components/Footer"
 
 function App() {
 
@@ -18,6 +19,7 @@ function App() {
       <Resume />
       <Project />
       <Contact />
+      <Footer />
     </>
   )
 }
