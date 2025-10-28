@@ -1,4 +1,4 @@
-export const MyPhoto = '/assets/myphoto2.png';
+export const MyPhoto = '/assets/Mustapha-portfolio.png';
 export const ElevatorImage = "/assets/Mustapha Elevator Pitch Poster.png"
 export const ElevatorVideo = "/assets/0524.mp4"
 export const AxiaFrontend = "/assets/Mustapha Axia Certificate.jpg"
