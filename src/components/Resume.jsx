@@ -26,6 +26,13 @@ const Resume = () => {
         "Building responsive and user-friendly web interfaces and collaborating with cross-functional teams to deliver high-quality learning platform features.",
     },
     {
+      year: "Dec 2024 - Present",
+      title: "Freelance Web Developer",
+      company: "Casjoe Tech",
+      description:
+        "Developed and maintained responsive websites for clients at Casjoe Tech using WordPress, ensuring SEO optimization, fast performance, and user-friendly interfaces tailored to meet company goals.",
+    },
+    {
       year: "April 2024 - Present",
       title: "Digital Content and Web Development Manager",
       company: "9am News Nigeria",
@@ -49,6 +56,18 @@ const Resume = () => {
   ];
 
   const certifications = [
+    {
+      year: "17th October, 2025",
+      title: "Frontend Prodev ",
+      company: "ALX Africa",
+      image: "/assets/ALX_PRODEV.png",
+    },
+    {
+      year: "12th October, 2025",
+      title: "Technical Support Fundamentals",
+      company: "Google",
+      image: "/assets/Technical_Support.jpg",
+    },
     {
       year: "13th May, 2025",
       title: "Frontend Development",
