@@ -1,6 +1,6 @@
 import { useState } from "react";
-import {FaWordpress, FaHtml5, FaCss3Alt, FaJs, FaGoogle, FaPalette, FaSlack, FaTrello, FaFigma,} from "react-icons/fa";
-import { SiTailwindcss } from "react-icons/si";
+import {FaWordpress, FaHtml5, FaCss3Alt, FaJs, FaGoogle, FaPalette, FaSlack, FaTrello, FaFigma, FaReact, FaElementor  } from "react-icons/fa";
+import { SiTailwindcss, SiCanva, SiAdobephotoshop, SiNextdotjs, SiGutenberg, SiGoogleanalytics, SiGooglesearchconsole  } from "react-icons/si";
 import { BiSolidUserAccount, BiTime } from "react-icons/bi";
 import { BsBing, BsGoogle } from "react-icons/bs";
 import { GrAnalytics } from "react-icons/gr";
@@ -120,7 +120,13 @@ const Resume = () => {
 
   const skills = [
     {
-      icon: <FaWordpress />,
+      icon: (
+        <div className="flex gap-2">
+            <FaWordpress />
+            <FaElementor />
+            <SiGutenberg />
+        </div>
+      ),
       title: "WordPress",
       items: ["Elementor", "Divi", "Gutenburg"],
     },
@@ -131,16 +137,18 @@ const Resume = () => {
           <FaCss3Alt />
           <FaJs />
           <SiTailwindcss />
+          <FaReact />
+          <SiNextdotjs />
         </div>
       ),
       title: "Frontend",
-      items: ["HTML", "CSS", "Javascript", "TailwindCSS"],
+      items: ["HTML", "CSS", "Javascript", "TailwindCSS", "React", "Next.js"],
     },
     {
       icon: (
         <div className="flex gap-2">
-          <BsGoogle />
-          <BsBing />
+          <SiGoogleanalytics  />
+          <SiGooglesearchconsole  />
           <GrAnalytics />
         </div>
       ),
@@ -148,7 +156,12 @@ const Resume = () => {
       items: ["Google Analytics", "Google Search Console", "Ahrefs", "Moz"],
     },
     {
-      icon: <FaPalette />,
+      icon: (
+        <div className="flex gap-2"> 
+          <SiCanva />
+          <SiAdobephotoshop /> 
+        </div>
+      ),
       title: "Graphics",
       items: ["Canva", "Photoshop"],
     },
