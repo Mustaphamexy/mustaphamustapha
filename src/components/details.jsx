@@ -16,4 +16,5 @@ export const FrancostechLimited = "/assets/Francostech.png"
 export const Learnverrse = "/assets/learnverrse.png"
 export const Afriremotely = "/assets/afriremotely.png"
 export const AlxApp = '/assets/alx-listing-app.png'
-
+export const Ticketly = '/assets/ticketly.png'
+export const AudioPhile = '/assets/audiophile.png'

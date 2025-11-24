@@ -59,7 +59,7 @@ const Hero = () => {
           }
 
           .hero-container {
-            animation: fadeIn 1.2s linear 1.9s forwards;
+            animation: fadeIn 0.3s linear 0.5s forwards;
             opacity: 0;
             visibility: hidden;
           }
