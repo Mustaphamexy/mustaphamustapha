@@ -19,6 +19,13 @@ const Resume = () => {
 
   const experiences = [
     {
+      year: "September 2025 - Present",
+      title: "Frontend Developer",
+      company: "Academiahub Africa",
+      description:
+        "Developed and implemented key pages of the AcademiaHub web application, contributing to a responsive and user-friendly interface.",
+    },
+    {
       year: "May 2025 - August 2025",
       title: "Frontend Developer (Intern)",
       company: "LearnVerrse",
@@ -57,16 +64,28 @@ const Resume = () => {
 
   const certifications = [
     {
+      year: "23rd January, 2026",
+      title: "Backend Development ",
+      company: "ALX",
+      image: "/assets/BE-DEV.png",
+    },
+    {
+      year: "20th January, 2026",
+      title: "IT Support Certification ",
+      company: "Google",
+      image: "/assets/IT Support Cert.jpg",
+    },
+    {
+      year: "1st September, 2025",
+      title: "Software Development",
+      company: "3MTT",
+      image: "/assets/3MTT.jpg",
+    },
+    {
       year: "17th October, 2025",
       title: "Frontend Prodev ",
       company: "ALX Africa",
       image: "/assets/ALX_PRODEV.png",
-    },
-    {
-      year: "12th October, 2025",
-      title: "Technical Support Fundamentals",
-      company: "Google",
-      image: "/assets/Technical_Support.jpg",
     },
     {
       year: "13th May, 2025",
