@@ -15,11 +15,11 @@ const Hero = () => {
   }, []);
 
   const roles = [
-    { text: 'WordPress Developer', delay: 4 },
-    { text: 'Frontend Developer', delay: 3 },
-    { text: 'SEO Specialist', delay: 2 },
-    { text: 'Project Manager', delay: 1 }
-  ];
+  { text: 'IT Project Manager', delay: 4 },
+  { text: 'Technology Consultant', delay: 3 },
+  { text: 'IT Consultant', delay: 2 },
+  { text: 'Business Analyst', delay: 1 }
+];
 
   return (
     <>
@@ -166,10 +166,10 @@ const Hero = () => {
             
             {/* Description */}
             <p className="text-gray-300 text-base md:text-lg leading-relaxed max-w-xl mt-4">
-              Hi, I'm Mustapha Mustapha Tunde, a Web Developer aiming to become a Full-Stack 
-              Developer. I've built 35+ responsive websites. I'd be excited to apply my frontend 
-              and WordPress skills to build you a responsive, visually engaging site, with a 
-              seamless user experience.
+              I support digital projects by bridging people, processes and technology. With
+  experience in project coordination, stakeholder communication, requirements
+  gathering and digital platform delivery, I turn business needs into clear,
+  practical actions that help teams deliver successful transformation outcomes.
             </p>
             
             {/* CTA and Social Links */}
@@ -212,7 +212,7 @@ const Hero = () => {
                   <FaGithub size={20} />
                 </a>
                 <a 
-                  href="https://ng.linkedin.com/in/mustapha-mustapha-tunde" 
+                  href="https://www.linkedin.com/in/mustapha-mustapha-tunde/" 
                   target="_blank"
                   rel="noopener noreferrer"
                   className="w-12 h-12 rounded-full border-2 flex items-center justify-center transition-all duration-500 hover:scale-110"

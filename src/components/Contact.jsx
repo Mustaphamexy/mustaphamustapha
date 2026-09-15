@@ -42,11 +42,14 @@ const Contact = () => {
           {/* Left Side - Contact Info */}
           <div className="flex flex-col justify-center" data-aos="fade-up">
             <h2 className="text-3xl md:text-5xl font-bold text-background mb-6">
-              Let's Work Together
-            </h2>
-            <p className="text-lg md:text-xl text-background mb-10 leading-relaxed">
-              Let's create impactful digital solutions that boost your brand and online presence.
-            </p>
+  Let&apos;s Deliver Meaningful Change
+</h2>
+
+<p className="text-lg md:text-xl text-background mb-10 leading-relaxed">
+  Let&apos;s turn business needs into practical technology solutions through
+  structured project delivery, process improvement and effective stakeholder
+  collaboration.
+</p>
 
             <div className="flex items-center mb-8">
               <div className="inline-flex bg-background text-primary p-5 text-4xl rounded-lg mr-6">
@@ -54,7 +57,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-primary text-lg font-medium mb-1">Phone</p>
-                <p className="text-background text-xs md:text-lg">(+234) 814 874 8044</p>
+                <p className="text-background text-xs md:text-lg">(+44) 73 4439 5318</p>
               </div>
             </div>
 
@@ -64,8 +67,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-primary text-lg font-medium mb-1">Email</p>
-                <p className="text-background text-xs md:text-lg">Mustaphamexy111@gmail.com</p>
-                <p className="text-background text-xs md:text-lg">Mustaphamexy112@gmail.com</p>
+                <p className="text-background text-xs md:text-lg">mustaphamustapha1024@gmail.com</p>
               </div>
             </div>
 
@@ -75,7 +77,7 @@ const Contact = () => {
               </div>
               <div>
                 <p className="text-primary text-lg font-medium mb-1">Location</p>
-                <p className="text-background text-xs md:text-lg">Port Harcourt, Nigeria</p>
+                <p className="text-background text-xs md:text-lg">Chester, United Kingdom</p>
               </div>
             </div>
           </div>

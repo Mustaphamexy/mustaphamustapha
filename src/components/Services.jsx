@@ -1,45 +1,50 @@
-import { FaWordpress, FaCalendarCheck, FaEdit } from "react-icons/fa";
-import { BiCodeAlt, BiStats } from "react-icons/bi";
+import {
+  FaProjectDiagram,
+  FaLaptopCode,
+  FaCogs,
+  FaExchangeAlt,
+  FaClipboardList,
+  FaChartLine,
+} from "react-icons/fa";
 import { HiArrowNarrowRight } from "react-icons/hi";
-import { LuNotebookPen } from "react-icons/lu";
 
 const Services = () => {
   const services = [
     {
-      icon: <FaWordpress />,
-      title: "WordPress Development",
+      icon: <FaProjectDiagram />,
+      title: "IT Project Management",
       description:
-        "I design and manage WordPress websites, customize themes, and optimize plugins. My skills ensure responsive, SEO-friendly, and user-friendly websites that enhance business growth and online presence.",
+        "I support technology projects from planning through delivery by coordinating activities, managing timelines, maintaining project documentation, and keeping stakeholders informed of progress, risks, issues, and dependencies.",
     },
     {
-      icon: <BiCodeAlt />,
-      title: "Web Development",
+      icon: <FaLaptopCode />,
+      title: "Technology Consulting",
       description:
-        "I build and maintain fast, responsive websites. My skills in front-end development ensure smooth functionality, great user experience, and optimized performance for businesses and brands growth.",
+        "I work with technical and non-technical stakeholders to understand business needs, assess technology requirements, and translate complex information into practical recommendations that support organisational goals.",
     },
     {
-      icon: <BiStats />,
-      title: "SEO",
+      icon: <FaCogs />,
+      title: "IT Consulting",
       description:
-        "I improve website rankings with SEO strategies that improve search rankings, and boost website visibility. My expertise covers keyword research, on-page optimization, and content structuring to maximize engagement and conversions.",
+        "I help organisations evaluate how their systems, processes, and digital tools can work more effectively together. My technical background enables me to communicate clearly with delivery teams and business stakeholders.",
     },
     {
-      icon: <FaCalendarCheck />,
-      title: "Project Management",
+      icon: <FaExchangeAlt />,
+      title: "Digital Transformation",
       description:
-        "I plan, organize, and oversee projects to ensure timely completion. My skills in team coordination, task management, and problem-solving help businesses run smoothly and achieve their goals.",
+        "I support digital transformation initiatives by connecting people, processes, and technology. I focus on improving user journeys, supporting technology adoption, and helping teams implement meaningful digital change.",
     },
     {
-      icon: <LuNotebookPen />,
-      title: "Content Creation",
+      icon: <FaClipboardList />,
+      title: "Business Analysis",
       description:
-        "I write engaging, SEO-friendly blog posts that attract readers and boost website traffic. My content is well-researched, structured, and optimized to increase visibility and brand authority.",
+        "I gather and document requirements, review existing processes, identify gaps, and help convert business needs into clear and actionable delivery steps that technical and project teams can understand.",
     },
     {
-      icon: <FaEdit />,
-      title: "Canva Designs",
+      icon: <FaChartLine />,
+      title: "Project Delivery & PMO Support",
       description:
-        "I create eye-catching Canva designs for social media, branding, and marketing. My designs are simple, professional, and visually appealing to attract and engage the right audience.",
+        "I maintain project plans, action logs, RAID logs, status reports, and performance trackers. I also support sprint planning, stakeholder meetings, change control, and continuous project improvement.",
     },
   ];
 
@@ -61,7 +66,7 @@ const Services = () => {
             transform: rotate(360deg);
             color: #a168db;
           }
-        
+
           .service-card:hover .service-title {
             color: #a168db;
           }
@@ -78,17 +83,29 @@ const Services = () => {
         `}
       </style>
 
-      <section className="py-20 px-6 md:px-8  bg-background">
+      <section
+        id="expertise"
+        className="py-20 px-6 md:px-8 bg-background"
+      >
         <div className="max-w-8xl mx-auto">
           {/* Section Heading */}
-          <h2 
-            className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-16 text-white" 
+          <h2
+            className="text-4xl md:text-5xl lg:text-6xl font-bold text-center mb-5 text-white"
             data-aos="slide-down"
           >
-            My <span className="text-primary">Services</span>
+            Areas of <span className="text-primary">Expertise</span>
           </h2>
 
-          {/* Services Grid */}
+          <p
+            className="max-w-3xl mx-auto text-center text-gray-300 text-base md:text-lg leading-relaxed mb-16"
+            data-aos="fade-up"
+          >
+            I combine project management, business analysis, and technical
+            knowledge to help organisations plan, coordinate, and deliver
+            technology-enabled change.
+          </p>
+
+          {/* Expertise Grid */}
           <div
             className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8"
             data-aos="slide-up"
@@ -96,31 +113,32 @@ const Services = () => {
             {services.map((service, index) => (
               <div
                 key={index}
-                className="service-card bg-gray-700 py-8 px-6 rounded-2xl transition-all duration-500 hover:scale-105 hover:border-2 hover:border-primary hover:shadow-xl"
+                className="service-card bg-gray-700 py-8 px-6 rounded-2xl border-2 border-transparent transition-all duration-500 hover:scale-105 hover:border-primary hover:shadow-xl"
               >
                 {/* Icon Section */}
                 <div className="flex justify-between items-start mb-6">
                   <div className="service-icon text-5xl md:text-6xl">
                     {service.icon}
                   </div>
-                  <a
-                    href="#"
+
+                  <div
                     className="arrow-icon w-12 h-12 text-background bg-white rounded-full flex items-center justify-center"
                     style={{
-                      backgroundColor: '#fff',
-                      color: '#323946'
+                      backgroundColor: "#ffffff",
+                      color: "#323946",
                     }}
+                    aria-hidden="true"
                   >
                     <HiArrowNarrowRight className="text-2xl transform -rotate-45" />
-                  </a>
+                  </div>
                 </div>
 
-                {/* Service Title */}
-                <h3 className="service-title text-xl md:text-3xl font-bold text-white mb-4">
+                {/* Expertise Title */}
+                <h3 className="service-title text-xl md:text-2xl font-bold text-white mb-4">
                   {service.title}
                 </h3>
 
-                {/* Service Description */}
+                {/* Expertise Description */}
                 <p className="text-gray-300 leading-relaxed">
                   {service.description}
                 </p>

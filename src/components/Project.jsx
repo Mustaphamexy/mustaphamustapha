@@ -16,7 +16,11 @@ import {
   Afriremotely,
   AlxApp,
   Ticketly,
-  AudioPhile
+  AudioPhile,
+  RenewAgra,
+  CantelConnect,
+  RoyalGreenland,
+  CoffeeCo,
 } from "./details";
 
 const Portfolio = () => {
@@ -24,10 +28,47 @@ const Portfolio = () => {
   const [isAnimating, setIsAnimating] = useState(false);
 
   const projects = [
-     {
+    {
+      id: 19,
+      title: "RenewAgra Digital Transformation Case Study",
+      description:
+        "A SAP technology consulting case study focused on supporting RenewAgra’s digital transformation. The project involved analysing the customer journey, conducting a PESTLE assessment, supporting Fit-to-Standard analysis, identifying process and system gaps, and developing a technical solution design and implementation roadmap.",
+      tech: "SAP Technology Consulting, SAP BTP, Fit-to-Standard, Customer Journey Mapping, Gap Analysis, PESTLE, SAP Cloud ALM",
+      link: "https://docs.google.com/presentation/d/1W3wjA83O7vD5J5lQ7HOUoxbRJloUjzT2/edit?usp=sharing&ouid=109113561117190267670&rtpof=true&sd=true",
+      image: RenewAgra,
+    },
+    {
+      id: 18,
+      title: "CanTel Connect IT Project Management",
+      description:
+        "An end-to-end IT project management simulation for implementing a service-ticketing tracker at CanTel Connect. Deliverables included the project charter, workflow, backlog, Gantt schedule, Trello board, RAID log, KPI framework, Power BI dashboard, improvement notes and final handover pack.",
+      tech: "IT Project Management, Agile Delivery, Jira/Trello, Microsoft Project, RAID, Excel, Power BI, KPI Reporting",
+      link: "https://docs.google.com/presentation/d/19RUxMm9YX-ajElIk3SJQf_jKqmpIDFwN/edit?usp=sharing&ouid=109113561117190267670&rtpof=true&sd=true",
+      image: CantelConnect,
+    },
+    {
+      id: 17,
+      title: "Royal Greenland Digital Transformation Case Study",
+      description:
+        "A SAP technology consulting case study examining how Royal Greenland could improve procurement and operational processes through SAP Business Technology Platform applications. The project covered business requirements, process challenges, proposed digital solutions and the value of integrating technology with organisational needs.",
+      tech: "SAP BTP, Technology Consulting, Requirements Analysis, Process Improvement, Digital Transformation",
+      link: "https://docs.google.com/presentation/d/199LjJr2SH7afNJD3Hzfe5gb0cqgf6SVt/edit?usp=sharing&ouid=109113561117190267670&rtpof=true&sd=true",
+      image: RoyalGreenland,
+    },
+    {
+      id: 16,
+      title: "CoffeeCo Agile Product Strategy",
+      description:
+        "A DigitalBCG project simulation focused on improving CoffeeCo’s mobile application through personalised customer offers. The work included designing one-week pilots, defining agile epics and sprint activities, analysing potential revenue impact and developing evidence-based recommendations for wider implementation.",
+      tech: "Agile Project Management, Product Strategy, Pilot Design, Data Analysis, Customer Experience, Digital Transformation",
+      link: "https://docs.google.com/presentation/d/104okpRIw8W5BK-9MwYL0tBU1_Qp0UAZ8/edit?usp=sharing&ouid=109113561117190267670&rtpof=true&sd=true",
+      image: CoffeeCo,
+    },
+    {
       id: 15,
       title: "AudioPhile",
-      description:"HNG Internship Stage 4 Project: Audiophile is a modern, full-stack e-commerce platform for premium audio equipment, featuring a complete shopping experience with product catalog, cart, checkout, order management, and automated email confirmations.",
+      description:
+        "HNG Internship Stage 4 Project: Audiophile is a modern, full-stack e-commerce platform for premium audio equipment, featuring a complete shopping experience with product catalog, cart, checkout, order management, and automated email confirmations.",
       tech: "Next.js 14, TailwindCSS, TypeScript, React Hook Form, Convex, Resend ",
       link: "https://ticketly-react.vercel.app/",
       image: AudioPhile,
@@ -35,7 +76,8 @@ const Portfolio = () => {
     {
       id: 14,
       title: "Ticketly",
-      description:"HNG Internship Stage 3 Project: A modern, responsive ticket management app built with React, featuring secure user authentication, real-time ticket analytics, full CRUD operations, status tracking, priority categorization, toast notifications, and a sleek dark-themed interface.",
+      description:
+        "HNG Internship Stage 3 Project: A modern, responsive ticket management app built with React, featuring secure user authentication, real-time ticket analytics, full CRUD operations, status tracking, priority categorization, toast notifications, and a sleek dark-themed interface.",
       tech: "React, TailwindCSS, LocalStorage ",
       link: "https://ticketly-react.vercel.app/",
       image: Ticketly,
@@ -43,7 +85,8 @@ const Portfolio = () => {
     {
       id: 1,
       title: "Afriremotely",
-      description:"Afriremotely is a remote job platform that connects African professionals to global work opportunities. It is designed to simplify job discovery, application tracking, and professional networking across industries. it offers advanced search filters and dashboards for both job seekers and employers.",
+      description:
+        "Afriremotely is a remote job platform that connects African professionals to global work opportunities. It is designed to simplify job discovery, application tracking, and professional networking across industries. it offers advanced search filters and dashboards for both job seekers and employers.",
       tech: "React, TailwindCSS, Context API",
       link: "https://afriremotely-d5zt.vercel.app/",
       image: Afriremotely,
@@ -51,7 +94,8 @@ const Portfolio = () => {
     {
       id: 2,
       title: "Learnverrse",
-      description:"Learnverrse is a learning management platform built to enhance online education by offering interactive courses, progress tracking, and collaborative features for learners and instructors in one digital ecosystem. it's my Learnverrse internship project where i collaborated with a team of developers to build the platform.",
+      description:
+        "Learnverrse is a learning management platform built to enhance online education by offering interactive courses, progress tracking, and collaborative features for learners and instructors in one digital ecosystem. it's my Learnverrse internship project where i collaborated with a team of developers to build the platform.",
       tech: "React, TailwindCSS",
       link: "https://learnverrse.github.io/learnverrse",
       image: Learnverrse,
@@ -59,7 +103,8 @@ const Portfolio = () => {
     {
       id: 3,
       title: "ALX Listing App",
-      description:"ALX Listing App is a responsive web platform that allows users to post, view, and manage property listings efficiently. It focuses on usability, performance, and seamless navigation for property seekers. it's my Assignment for ALX SE Program",
+      description:
+        "ALX Listing App is a responsive web platform that allows users to post, view, and manage property listings efficiently. It focuses on usability, performance, and seamless navigation for property seekers. it's my Assignment for ALX SE Program",
       tech: "Next.js, Tailwind CSS, Mock API",
       link: "https://alx-listing-app-1226863.vercel.app/",
       image: AlxApp,
@@ -67,7 +112,8 @@ const Portfolio = () => {
     {
       id: 4,
       title: "Movie App",
-      description:"Movie App Is My 3MTT Final Project Which Involves Using The MERN Stack to fetch movie details from TMBD API And dynamically displaying to users and allows user to create Watchlist",
+      description:
+        "Movie App Is My 3MTT Final Project Which Involves Using The MERN Stack to fetch movie details from TMBD API And dynamically displaying to users and allows user to create Watchlist",
       tech: "MongoDB, Express, React, Node.js",
       link: "https://movie-app-rosy-five.vercel.app/",
       image: MovieApp,
@@ -153,12 +199,11 @@ const Portfolio = () => {
       link: "https://francostech.com.ng/",
       image: FrancostechLimited,
     },
-    
   ];
 
   // Helper function to generate number with leading zero
   const getProjectNumber = (index) => {
-    return (index + 1).toString().padStart(2, '0');
+    return (index + 1).toString().padStart(2, "0");
   };
 
   const currentProject = projects[currentIndex];

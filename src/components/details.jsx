@@ -18,3 +18,7 @@ export const Afriremotely = "/assets/afriremotely.png"
 export const AlxApp = '/assets/alx-listing-app.png'
 export const Ticketly = '/assets/ticketly.png'
 export const AudioPhile = '/assets/audiophile.png'
+export const RenewAgra = '/assets/RenewAgra.png'
+export const CantelConnect = '/assets/CantelConnect.png'
+export const RoyalGreenland = '/assets/RoyalGreenland.png'
+export const CoffeeCo = '/assets/Coffeeco.png'

@@ -5,8 +5,8 @@ const ElevatorPitch = () => {
   return (
     <div className=' flex flex-col items-center bg-white text-background px-6 md:px-12 lg:px-24 py-8'>
         <div className='flex flex-col items-center max-w-2xl text-center '>
-            <h2 className='text-3xl md:text-5xl font-bold pb-4'>My Elevator <span className='text-primary'>Pitch</span> </h2>
-        <p className='font-medium'>Get to know me in just a few minutes. Watch my elevator pitch to understand my passion, skills, and what drives me as a developer.</p>
+            <h2 className='text-3xl md:text-5xl font-bold pb-4'>Know More <span className='text-primary'>About Me</span> </h2>
+        <p className='font-medium'>Get to know me and understand my passion, skills, and what drives me as a Project Manager.</p>
         </div>
         <div>
             <div className="max-w-3xl pt-6 " data-aos="fade-up">
